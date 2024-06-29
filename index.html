@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR YOU</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file -->
+    <style>
+
+       
+        button {
+            position: relative;
+            font-family: inherit;
+            font-size: 18px;
+            border-radius: 40em;
+            width: 20em; /* Updated width */
+            height: 3em;
+            z-index: 1;
+            color: white;
+            cursor: pointer;
+            overflow: hidden;
+            border: none;
+        }
+
+        button .text {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            line-height: 3em;
+            border-radius: 40em;
+            border: none;
+            background: linear-gradient(
+                rgba(255, 255, 255, 0.473),
+                rgba(150, 150, 150, 0.25)
+            );
+            z-index: 1;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        button .blob {
+            position: absolute;
+            z-index: -1;
+            border-radius: 5em;
+            width: 7em;
+            height: 4em;
+            transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+        }
+
+        /* Adjusted positions and colors for the new width */
+        button .blob:nth-child(2) {
+            left: 0em;
+            top: 0;
+            background: #3498db; /* New color */
+        }
+
+        button .blob:nth-child(3) {
+            left: 6em;
+            top: 0;
+            background: #e74c3c; /* New color */
+        }
+
+        button .blob:nth-child(4) {
+            left: 12em;
+            top: -1em;
+            background: #f1c40f; /* New color */
+        }
+
+        button .blob:nth-child(5) {
+            left: 16em;
+            top: 1.6em;
+            background: #2ecc71; /* New color */
+        }
+
+        button:hover .blob:nth-child(2) {
+            background: #2ecc71; /* New hover color */
+        }
+
+        button:hover .blob:nth-child(3) {
+            background: #f1c40f; /* New hover color */
+        }
+
+        button:hover .blob:nth-child(4) {
+            background: #e74c3c; /* New hover color */
+        }
+
+        button:hover .blob:nth-child(5) {
+            background: #3498db; /* New hover color */
+        }
+
+        button:hover .blob {
+            transform: scale(1.3);
+        }
+
+        button:active {
+            border: 2px solid white;
+        }
+
+        /* Additional CSS to center the button at the bottom */
+        .button-container {
+            position: fixed;
+            left: 50%;
+            bottom: 1em;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+   <!-- Designed by:  Mauricio Bucardo
+Original image: https://dribbble.com/shots/6957353-Music-Player-Widget -->
+
+<div id="root"> </div>
+
+<div class="button-container">
+    <button id="redirectButton">
+        <span class="text"></span>
+        <span class="blob"></span>
+        <span class="blob"></span>
+        <span class="blob"></span>
+        <span class="blob"></span>
+    </button>
+</div>
+
+<script src="./script.js"></script>
+<script>
+    document.getElementById('redirectButton').onclick = function() {
+        window.location.href = './hello.html'; // Replace with your target URL
+    }
+</script>
+</body>
+</html>

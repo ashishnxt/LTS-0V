@@ -1,0 +1,69 @@
+{
+  "songs": [
+    {
+      "bg": "#c9bea28f",
+      "artist": "Arijit Singh",
+      "songName": "Apna Bana",
+      "files": {
+        "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Apna-Bana-Le-Sachin-Jigar-Arijit-Singh.mp3",
+        "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/Bhediya-Hindi-2023-20230927155213-500x500.jpg"
+      }
+    },
+    {
+      "bg": "#0896eba1",
+      "artist": "Alka Yagnik, Udit Narayan",
+      "songName": "Jo Bhi Kasmein",
+      "files": {
+        "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Jo%20Bhi%20Kasmein%20Raaz%20128%20Kbps.mp3",
+        "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/Raaz-Hindi-2002-20240408222519-500x500.jpg"
+      }
+    },
+    {
+      "bg": "#ebbe03",
+      "artist": "Alka Yagnik, Udit Narayan",
+      "songName": "Kitna Pyaara Hai",
+      "files": {
+       "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Kitna-Pyaara-Hai-From-Raaz-Alka-Yagnik-Udit-Narayan.mp3",
+       "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/6ca5d04486ae0b2370665ae2955fe323.jpg"
+      }
+    },
+    {
+      "bg": "#ffc382",
+      "artist": "Udit Narayan, Shreya Ghoshal",
+      "songName": "Mujhe Haq Hai",
+      "files": {
+      "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Mujhe%20Haq%20Hai%20-%20Vivah_128-(DJMaza).mp3",
+      "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/Vivah-Hindi-2006-500x500.jpg"
+      }
+    },
+    {
+      "bg": "#ffcbdc",
+      "artist": "Satinder Sartaaj",
+      "songName": "Udaarian",
+      "files": {
+      "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Udaarian%20-%20Satinder%20Sartaaj_128-(DJMaza).mp3",
+      "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/Seasons-Of-Sartaaj-Punjabi-2018-20190214090803-500x500.jpg"
+      }
+    },
+    {
+      "bg": "#44c16fb5",
+      "artist": "AIka Yagnik, Udit Narayan",
+      "songName": "Zindagi",
+      "files": {
+      "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Zindagi_Ban_Gaye_Ho_Tum_-_Kasoor_128_Kbps.mp3",
+      "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/artworks-3MDWB70OEjFuiOKf-7Kt1Mw-t500x500.jpg"
+      }
+    },
+    
+    {
+      "bg": "#574747",
+      "artist": "Lata Mangeshkar, Mohammed Rafi",
+      "songName": "Ye Dil Tum",
+      "files": {
+      "song": "https://raw.githubusercontent.com/ashishnxt/my-file/main/song/Ye%20Dil%20Tum%20Bin%20Lagta%20Nahin%20-%20(Raag.Fm).mp3",
+      "cover": "https://raw.githubusercontent.com/ashishnxt/my-file/main/cover-photo/crop_480x480_2828125.jpg"
+      }
+    }
+    
+  ]
+}

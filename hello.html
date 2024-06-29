@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="login-popup" class="popup">
+        <div class="popup-content glass">
+            <h2>FOR YOU</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="year1">  ENTER SECRET CODE</label>
+                    <input type="text" id="year1" placeholder="ENTER">
+                </div>
+                <div class="input-group">
+                    <label for="year2">  ENTER SECRET CODE</label>
+                    <input type="text" id="year2" placeholder="ENTER">
+                </div>
+                <button type="button" onclick="checkLogin()">LOGIN</button>
+            </form>
+            <p id="error-message" class="error-message">Try again!</p>
+        </div>
+    </div>
+    <video id="video-player" loop controls>
+        <source src="./Copy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <script src="script2.js"></script>
+</body>
+</html>
